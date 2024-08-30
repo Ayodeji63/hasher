@@ -1,0 +1,67 @@
+{
+  "language": "Solidity",
+  "sources": {
+    "contracts/Hash.sol": {
+      "content": "// SPDX-License-Identifier: MIT\n\npragma solidity ^0.8.20;\n\nimport {Hasher} from \"maci-contracts/contracts/crypto/Hasher.sol\";\n\ncontract Hash is Hasher {\n    error PoseidonHashLibrariesNotLinked();\n\n    constructor() {\n        // if (hash2([uint256(1), uint256(1)]) == 0)\n        //     revert PoseidonHashLibrariesNotLinked();\n    }\n\n    function testPoseidonHash(\n        uint256[2] memory values\n    ) public returns (uint256 result) {\n        result = hash2(values);\n    }\n}\n"
+    },
+    "maci-contracts/contracts/crypto/Hasher.sol": {
+      "content": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.20;\n\nimport { SnarkConstants } from \"./SnarkConstants.sol\";\nimport { PoseidonT3 } from \"./PoseidonT3.sol\";\nimport { PoseidonT4 } from \"./PoseidonT4.sol\";\nimport { PoseidonT5 } from \"./PoseidonT5.sol\";\nimport { PoseidonT6 } from \"./PoseidonT6.sol\";\n\n/// @notice A SHA256 hash function for any number of input elements, and Poseidon hash\n/// functions for 2, 3, 4, 5, and 12 input elements.\ncontract Hasher is SnarkConstants {\n  /// @notice Computes the SHA256 hash of an array of uint256 elements.\n  /// @param array The array of uint256 elements.\n  /// @return result The SHA256 hash of the array.\n  function sha256Hash(uint256[] memory array) public pure returns (uint256 result) {\n    result = uint256(sha256(abi.encodePacked(array))) % SNARK_SCALAR_FIELD;\n  }\n\n  /// @notice Computes the Poseidon hash of two uint256 elements.\n  /// @param array An array of two uint256 elements.\n  /// @return result The Poseidon hash of the two elements.\n  function hash2(uint256[2] memory array) public pure returns (uint256 result) {\n    result = PoseidonT3.poseidon(array);\n  }\n\n  /// @notice Computes the Poseidon hash of three uint256 elements.\n  /// @param array An array of three uint256 elements.\n  /// @return result The Poseidon hash of the three elements.\n  function hash3(uint256[3] memory array) public pure returns (uint256 result) {\n    result = PoseidonT4.poseidon(array);\n  }\n\n  /// @notice Computes the Poseidon hash of four uint256 elements.\n  /// @param array An array of four uint256 elements.\n  /// @return result The Poseidon hash of the four elements.\n  function hash4(uint256[4] memory array) public pure returns (uint256 result) {\n    result = PoseidonT5.poseidon(array);\n  }\n\n  /// @notice Computes the Poseidon hash of five uint256 elements.\n  /// @param array An array of five uint256 elements.\n  /// @return result The Poseidon hash of the five elements.\n  function hash5(uint256[5] memory array) public pure returns (uint256 result) {\n    result = PoseidonT6.poseidon(array);\n  }\n\n  /// @notice Computes the Poseidon hash of two uint256 elements.\n  /// @param left the first element to hash.\n  /// @param right the second element to hash.\n  /// @return result The Poseidon hash of the two elements.\n  function hashLeftRight(uint256 left, uint256 right) public pure returns (uint256 result) {\n    uint256[2] memory input;\n    input[0] = left;\n    input[1] = right;\n    result = hash2(input);\n  }\n}\n"
+    },
+    "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+      "content": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.20;\n\n/// @notice A library which provides functions for computing Pedersen hashes.\nlibrary PoseidonT3 {\n  // solhint-disable-next-line no-empty-blocks\n  function poseidon(uint256[2] memory input) public pure returns (uint256) {}\n}\n"
+    },
+    "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+      "content": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.20;\n\n/// @notice A library which provides functions for computing Pedersen hashes.\nlibrary PoseidonT4 {\n  // solhint-disable-next-line no-empty-blocks\n  function poseidon(uint256[3] memory input) public pure returns (uint256) {}\n}\n"
+    },
+    "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+      "content": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.20;\n\n/// @notice A library which provides functions for computing Pedersen hashes.\nlibrary PoseidonT5 {\n  // solhint-disable-next-line no-empty-blocks\n  function poseidon(uint256[4] memory input) public pure returns (uint256) {}\n}\n"
+    },
+    "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+      "content": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.20;\n\n/// @notice A library which provides functions for computing Pedersen hashes.\nlibrary PoseidonT6 {\n  // solhint-disable-next-line no-empty-blocks\n  function poseidon(uint256[5] memory input) public pure returns (uint256) {}\n}\n"
+    },
+    "maci-contracts/contracts/crypto/SnarkConstants.sol": {
+      "content": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.20;\n\n/// @title SnarkConstants\n/// @notice This contract contains constants related to the SNARK\n/// components of MACI.\ncontract SnarkConstants {\n  /// @notice The scalar field\n  uint256 internal constant SNARK_SCALAR_FIELD =\n    21888242871839275222246405745257275088548364400416034343698204186575808495617;\n\n  /// @notice The public key here is the first Pedersen base\n  /// point from iden3's circomlib implementation of the Pedersen hash.\n  /// Since it is generated using a hash-to-curve function, we are\n  /// confident that no-one knows the private key associated with this\n  /// public key. See:\n  /// https://github.com/iden3/circomlib/blob/d5ed1c3ce4ca137a6b3ca48bec4ac12c1b38957a/src/pedersen_printbases.js\n  /// Its hash should equal\n  /// 6769006970205099520508948723718471724660867171122235270773600567925038008762.\n  uint256 internal constant PAD_PUBKEY_X =\n    10457101036533406547632367118273992217979173478358440826365724437999023779287;\n  uint256 internal constant PAD_PUBKEY_Y =\n    19824078218392094440610104313265183977899662750282163392862422243483260492317;\n\n  /// @notice The Keccack256 hash of 'Maci'\n  uint256 internal constant NOTHING_UP_MY_SLEEVE =\n    8370432830353022751713833565135785980866757267633941821328460903436894336785;\n}\n"
+    }
+  },
+  "settings": {
+    "optimizer": {
+      "enabled": true,
+      "mode": "3",
+      "fallback_to_optimizing_for_size": false
+    },
+    "viaIR": true,
+    "evmVersion": "paris",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "abi",
+          "evm.methodIdentifiers",
+          "metadata",
+          "devdoc",
+          "userdoc",
+          "storageLayout"
+        ],
+        "": [
+          "ast"
+        ]
+      }
+    },
+    "detectMissingLibraries": false,
+    "forceEVMLA": false,
+    "enableEraVMExtensions": false,
+    "libraries": {
+      "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+        "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+      },
+      "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+        "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+      },
+      "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+        "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+      },
+      "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+        "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+      }
+    }
+  }
+}

@@ -1,0 +1,4619 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/home/ayo/projects/poseidon/node_modules/.pnpm/maci-contracts@0.0.0-ci.f6073a6_@nomicfoundation+hardhat-chai-matchers@2.0.7_@nomicfoundation_t5yomfv7n3kzpt53bqbwvhd76a/node_modules/maci-contracts/contracts/crypto/PoseidonT3.sol": {
+      "lastModificationDate": 1724966427545,
+      "contentHash": "075a03eb9c09466aa276b3727f452bea",
+      "sourceName": "maci-contracts/contracts/crypto/PoseidonT3.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": true,
+            "mode": "3",
+            "fallback_to_optimizing_for_size": false
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "detectMissingLibraries": false,
+          "forceEVMLA": false,
+          "enableEraVMExtensions": false,
+          "libraries": {
+            "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+              "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+              "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+              "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+              "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+            }
+          }
+        },
+        "eraVersion": "1.0.1",
+        "zksolc": {
+          "version": "1.5.3",
+          "compilerSource": "binary",
+          "settings": {
+            "optimizer": {
+              "enabled": true,
+              "mode": "3",
+              "fallback_to_optimizing_for_size": false
+            },
+            "compilerPath": "/home/ayo/.cache/hardhat-nodejs/compilers-v2/zksolc/zksolc-v1.5.3",
+            "missingLibrariesPath": "./.zksolc-libraries-cache/missingLibraryDependencies.json",
+            "areLibrariesMissing": false,
+            "experimental": {},
+            "libraries": {
+              "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+                "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+                "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+                "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+                "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+              }
+            },
+            "enableEraVMExtensions": false,
+            "forceEVMLA": false
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "PoseidonT3"
+      ]
+    },
+    "/home/ayo/projects/poseidon/node_modules/.pnpm/maci-contracts@0.0.0-ci.f6073a6_@nomicfoundation+hardhat-chai-matchers@2.0.7_@nomicfoundation_t5yomfv7n3kzpt53bqbwvhd76a/node_modules/maci-contracts/contracts/crypto/PoseidonT4.sol": {
+      "lastModificationDate": 1724966427545,
+      "contentHash": "f2016e5b61ac88c516357cd37103167f",
+      "sourceName": "maci-contracts/contracts/crypto/PoseidonT4.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": true,
+            "mode": "3",
+            "fallback_to_optimizing_for_size": false
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "detectMissingLibraries": false,
+          "forceEVMLA": false,
+          "enableEraVMExtensions": false,
+          "libraries": {
+            "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+              "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+              "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+              "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+              "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+            }
+          }
+        },
+        "eraVersion": "1.0.1",
+        "zksolc": {
+          "version": "1.5.3",
+          "compilerSource": "binary",
+          "settings": {
+            "optimizer": {
+              "enabled": true,
+              "mode": "3",
+              "fallback_to_optimizing_for_size": false
+            },
+            "compilerPath": "/home/ayo/.cache/hardhat-nodejs/compilers-v2/zksolc/zksolc-v1.5.3",
+            "missingLibrariesPath": "./.zksolc-libraries-cache/missingLibraryDependencies.json",
+            "areLibrariesMissing": false,
+            "experimental": {},
+            "libraries": {
+              "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+                "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+                "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+                "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+                "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+              }
+            },
+            "enableEraVMExtensions": false,
+            "forceEVMLA": false
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "PoseidonT4"
+      ]
+    },
+    "/home/ayo/projects/poseidon/node_modules/.pnpm/maci-contracts@0.0.0-ci.f6073a6_@nomicfoundation+hardhat-chai-matchers@2.0.7_@nomicfoundation_t5yomfv7n3kzpt53bqbwvhd76a/node_modules/maci-contracts/contracts/crypto/PoseidonT5.sol": {
+      "lastModificationDate": 1724966427545,
+      "contentHash": "b3e86d58915cea43914bb4240c269a64",
+      "sourceName": "maci-contracts/contracts/crypto/PoseidonT5.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": true,
+            "mode": "3",
+            "fallback_to_optimizing_for_size": false
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "detectMissingLibraries": false,
+          "forceEVMLA": false,
+          "enableEraVMExtensions": false,
+          "libraries": {
+            "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+              "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+              "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+              "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+              "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+            }
+          }
+        },
+        "eraVersion": "1.0.1",
+        "zksolc": {
+          "version": "1.5.3",
+          "compilerSource": "binary",
+          "settings": {
+            "optimizer": {
+              "enabled": true,
+              "mode": "3",
+              "fallback_to_optimizing_for_size": false
+            },
+            "compilerPath": "/home/ayo/.cache/hardhat-nodejs/compilers-v2/zksolc/zksolc-v1.5.3",
+            "missingLibrariesPath": "./.zksolc-libraries-cache/missingLibraryDependencies.json",
+            "areLibrariesMissing": false,
+            "experimental": {},
+            "libraries": {
+              "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+                "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+                "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+                "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+                "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+              }
+            },
+            "enableEraVMExtensions": false,
+            "forceEVMLA": false
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "PoseidonT5"
+      ]
+    },
+    "/home/ayo/projects/poseidon/node_modules/.pnpm/maci-contracts@0.0.0-ci.f6073a6_@nomicfoundation+hardhat-chai-matchers@2.0.7_@nomicfoundation_t5yomfv7n3kzpt53bqbwvhd76a/node_modules/maci-contracts/contracts/crypto/PoseidonT6.sol": {
+      "lastModificationDate": 1724966427545,
+      "contentHash": "3302cfa41bd161f9e3904288384c754e",
+      "sourceName": "maci-contracts/contracts/crypto/PoseidonT6.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": true,
+            "mode": "3",
+            "fallback_to_optimizing_for_size": false
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "detectMissingLibraries": false,
+          "forceEVMLA": false,
+          "enableEraVMExtensions": false,
+          "libraries": {
+            "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+              "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+              "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+              "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+              "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+            }
+          }
+        },
+        "eraVersion": "1.0.1",
+        "zksolc": {
+          "version": "1.5.3",
+          "compilerSource": "binary",
+          "settings": {
+            "optimizer": {
+              "enabled": true,
+              "mode": "3",
+              "fallback_to_optimizing_for_size": false
+            },
+            "compilerPath": "/home/ayo/.cache/hardhat-nodejs/compilers-v2/zksolc/zksolc-v1.5.3",
+            "missingLibrariesPath": "./.zksolc-libraries-cache/missingLibraryDependencies.json",
+            "areLibrariesMissing": false,
+            "experimental": {},
+            "libraries": {
+              "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+                "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+                "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+                "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+                "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+              }
+            },
+            "enableEraVMExtensions": false,
+            "forceEVMLA": false
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "PoseidonT6"
+      ]
+    },
+    "/home/ayo/projects/poseidon/node_modules/.pnpm/maci-contracts@0.0.0-ci.f6073a6_@nomicfoundation+hardhat-chai-matchers@2.0.7_@nomicfoundation_t5yomfv7n3kzpt53bqbwvhd76a/node_modules/maci-contracts/contracts/crypto/Hasher.sol": {
+      "lastModificationDate": 1724966427545,
+      "contentHash": "94e426d803a903d88c4aa8d7032eb4f4",
+      "sourceName": "maci-contracts/contracts/crypto/Hasher.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": true,
+            "mode": "3",
+            "fallback_to_optimizing_for_size": false
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "detectMissingLibraries": false,
+          "forceEVMLA": false,
+          "enableEraVMExtensions": false,
+          "libraries": {
+            "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+              "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+              "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+              "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+              "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+            }
+          }
+        },
+        "eraVersion": "1.0.1",
+        "zksolc": {
+          "version": "1.5.3",
+          "compilerSource": "binary",
+          "settings": {
+            "optimizer": {
+              "enabled": true,
+              "mode": "3",
+              "fallback_to_optimizing_for_size": false
+            },
+            "compilerPath": "/home/ayo/.cache/hardhat-nodejs/compilers-v2/zksolc/zksolc-v1.5.3",
+            "missingLibrariesPath": "./.zksolc-libraries-cache/missingLibraryDependencies.json",
+            "areLibrariesMissing": false,
+            "experimental": {},
+            "libraries": {
+              "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+                "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+                "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+                "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+                "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+              }
+            },
+            "enableEraVMExtensions": false,
+            "forceEVMLA": false
+          }
+        }
+      },
+      "imports": [
+        "./SnarkConstants.sol",
+        "./PoseidonT3.sol",
+        "./PoseidonT4.sol",
+        "./PoseidonT5.sol",
+        "./PoseidonT6.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "Hasher"
+      ]
+    },
+    "/home/ayo/projects/poseidon/node_modules/.pnpm/maci-contracts@0.0.0-ci.f6073a6_@nomicfoundation+hardhat-chai-matchers@2.0.7_@nomicfoundation_t5yomfv7n3kzpt53bqbwvhd76a/node_modules/maci-contracts/contracts/crypto/SnarkConstants.sol": {
+      "lastModificationDate": 1724966427545,
+      "contentHash": "5cd35d3d4212a8b84edc24ce7e765d47",
+      "sourceName": "maci-contracts/contracts/crypto/SnarkConstants.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": true,
+            "mode": "3",
+            "fallback_to_optimizing_for_size": false
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "detectMissingLibraries": false,
+          "forceEVMLA": false,
+          "enableEraVMExtensions": false,
+          "libraries": {
+            "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+              "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+              "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+              "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+              "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+            }
+          }
+        },
+        "eraVersion": "1.0.1",
+        "zksolc": {
+          "version": "1.5.3",
+          "compilerSource": "binary",
+          "settings": {
+            "optimizer": {
+              "enabled": true,
+              "mode": "3",
+              "fallback_to_optimizing_for_size": false
+            },
+            "compilerPath": "/home/ayo/.cache/hardhat-nodejs/compilers-v2/zksolc/zksolc-v1.5.3",
+            "missingLibrariesPath": "./.zksolc-libraries-cache/missingLibraryDependencies.json",
+            "areLibrariesMissing": false,
+            "experimental": {},
+            "libraries": {
+              "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+                "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+                "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+                "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+                "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+              }
+            },
+            "enableEraVMExtensions": false,
+            "forceEVMLA": false
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "SnarkConstants"
+      ]
+    },
+    "/home/ayo/projects/poseidon/contracts/Hash.sol": {
+      "lastModificationDate": 1725008171266,
+      "contentHash": "3ad0876e6530b19f747c1642318500ac",
+      "sourceName": "contracts/Hash.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "mode": "3",
+            "fallback_to_optimizing_for_size": false
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "detectMissingLibraries": false,
+          "forceEVMLA": false,
+          "enableEraVMExtensions": false,
+          "libraries": {
+            "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+              "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+              "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+              "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+              "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+            },
+            "./PoseidonT3.sol": {
+              "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+            },
+            "./PoseidonT6.sol": {
+              "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+            },
+            "./PoseidonT4.sol": {
+              "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+            },
+            "./PoseidonT5.sol": {
+              "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+            }
+          }
+        },
+        "eraVersion": "1.0.1",
+        "zksolc": {
+          "version": "1.5.3",
+          "compilerSource": "binary",
+          "settings": {
+            "optimizer": {
+              "enabled": true,
+              "mode": "3",
+              "fallback_to_optimizing_for_size": false
+            },
+            "compilerPath": "/home/ayo/.cache/hardhat-nodejs/compilers-v2/zksolc/zksolc-v1.5.3",
+            "missingLibrariesPath": "./.zksolc-libraries-cache/missingLibraryDependencies.json",
+            "areLibrariesMissing": false,
+            "experimental": {},
+            "libraries": {
+              "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+                "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+                "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+                "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+                "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+              },
+              "./PoseidonT3.sol": {
+                "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+              },
+              "./PoseidonT6.sol": {
+                "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+              },
+              "./PoseidonT4.sol": {
+                "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+              },
+              "./PoseidonT5.sol": {
+                "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+              }
+            },
+            "enableEraVMExtensions": false,
+            "forceEVMLA": false
+          }
+        }
+      },
+      "imports": [
+        "maci-contracts/contracts/crypto/Hasher.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "Hash"
+      ]
+    },
+    "/home/ayo/projects/poseidon/node_modules/.pnpm/maci-contracts@0.0.0-ci.f6073a6_@nomicfoundation+hardhat-chai-matchers@2.0.7_@nomicfoundation_oppwookvwbkbrslse5hwejvkle/node_modules/maci-contracts/contracts/crypto/Hasher.sol": {
+      "lastModificationDate": 1725008203003,
+      "contentHash": "5b48977faad0b8f333aaf0ce5730b16f",
+      "sourceName": "maci-contracts/contracts/crypto/Hasher.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "mode": "3",
+            "fallback_to_optimizing_for_size": false
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "detectMissingLibraries": false,
+          "forceEVMLA": false,
+          "enableEraVMExtensions": false,
+          "libraries": {
+            "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+              "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+              "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+              "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+              "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+            },
+            "./PoseidonT3.sol": {
+              "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+            },
+            "./PoseidonT6.sol": {
+              "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+            },
+            "./PoseidonT4.sol": {
+              "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+            },
+            "./PoseidonT5.sol": {
+              "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+            }
+          }
+        },
+        "eraVersion": "1.0.1",
+        "zksolc": {
+          "version": "1.5.3",
+          "compilerSource": "binary",
+          "settings": {
+            "optimizer": {
+              "enabled": true,
+              "mode": "3",
+              "fallback_to_optimizing_for_size": false
+            },
+            "compilerPath": "/home/ayo/.cache/hardhat-nodejs/compilers-v2/zksolc/zksolc-v1.5.3",
+            "missingLibrariesPath": "./.zksolc-libraries-cache/missingLibraryDependencies.json",
+            "areLibrariesMissing": false,
+            "experimental": {},
+            "libraries": {
+              "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+                "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+                "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+                "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+                "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+              },
+              "./PoseidonT3.sol": {
+                "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+              },
+              "./PoseidonT6.sol": {
+                "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+              },
+              "./PoseidonT4.sol": {
+                "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+              },
+              "./PoseidonT5.sol": {
+                "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+              }
+            },
+            "enableEraVMExtensions": false,
+            "forceEVMLA": false
+          }
+        }
+      },
+      "imports": [
+        "./SnarkConstants.sol",
+        "./PoseidonT3.sol",
+        "./PoseidonT4.sol",
+        "./PoseidonT5.sol",
+        "./PoseidonT6.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "Hasher"
+      ]
+    },
+    "/home/ayo/projects/poseidon/node_modules/.pnpm/maci-contracts@0.0.0-ci.f6073a6_@nomicfoundation+hardhat-chai-matchers@2.0.7_@nomicfoundation_oppwookvwbkbrslse5hwejvkle/node_modules/maci-contracts/contracts/crypto/PoseidonT4.sol": {
+      "lastModificationDate": 1725008181446,
+      "contentHash": "f7fc06e1dadf36817e3536d265a8c151",
+      "sourceName": "maci-contracts/contracts/crypto/PoseidonT4.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "mode": "3",
+            "fallback_to_optimizing_for_size": false
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "detectMissingLibraries": false,
+          "forceEVMLA": false,
+          "enableEraVMExtensions": false,
+          "libraries": {
+            "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+              "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+              "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+              "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+              "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+            },
+            "./PoseidonT3.sol": {
+              "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+            },
+            "./PoseidonT6.sol": {
+              "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+            },
+            "./PoseidonT4.sol": {
+              "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+            },
+            "./PoseidonT5.sol": {
+              "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+            }
+          }
+        },
+        "eraVersion": "1.0.1",
+        "zksolc": {
+          "version": "1.5.3",
+          "compilerSource": "binary",
+          "settings": {
+            "optimizer": {
+              "enabled": true,
+              "mode": "3",
+              "fallback_to_optimizing_for_size": false
+            },
+            "compilerPath": "/home/ayo/.cache/hardhat-nodejs/compilers-v2/zksolc/zksolc-v1.5.3",
+            "missingLibrariesPath": "./.zksolc-libraries-cache/missingLibraryDependencies.json",
+            "areLibrariesMissing": false,
+            "experimental": {},
+            "libraries": {
+              "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+                "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+                "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+                "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+                "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+              },
+              "./PoseidonT3.sol": {
+                "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+              },
+              "./PoseidonT6.sol": {
+                "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+              },
+              "./PoseidonT4.sol": {
+                "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+              },
+              "./PoseidonT5.sol": {
+                "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+              }
+            },
+            "enableEraVMExtensions": false,
+            "forceEVMLA": false
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "PoseidonT4"
+      ]
+    },
+    "/home/ayo/projects/poseidon/node_modules/.pnpm/maci-contracts@0.0.0-ci.f6073a6_@nomicfoundation+hardhat-chai-matchers@2.0.7_@nomicfoundation_oppwookvwbkbrslse5hwejvkle/node_modules/maci-contracts/contracts/crypto/PoseidonT3.sol": {
+      "lastModificationDate": 1725008177158,
+      "contentHash": "a1891590c222c94f7e7eff50cb0ea2ab",
+      "sourceName": "maci-contracts/contracts/crypto/PoseidonT3.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "mode": "3",
+            "fallback_to_optimizing_for_size": false
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "detectMissingLibraries": false,
+          "forceEVMLA": false,
+          "enableEraVMExtensions": false,
+          "libraries": {
+            "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+              "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+              "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+              "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+              "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+            },
+            "./PoseidonT3.sol": {
+              "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+            },
+            "./PoseidonT6.sol": {
+              "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+            },
+            "./PoseidonT4.sol": {
+              "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+            },
+            "./PoseidonT5.sol": {
+              "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+            }
+          }
+        },
+        "eraVersion": "1.0.1",
+        "zksolc": {
+          "version": "1.5.3",
+          "compilerSource": "binary",
+          "settings": {
+            "optimizer": {
+              "enabled": true,
+              "mode": "3",
+              "fallback_to_optimizing_for_size": false
+            },
+            "compilerPath": "/home/ayo/.cache/hardhat-nodejs/compilers-v2/zksolc/zksolc-v1.5.3",
+            "missingLibrariesPath": "./.zksolc-libraries-cache/missingLibraryDependencies.json",
+            "areLibrariesMissing": false,
+            "experimental": {},
+            "libraries": {
+              "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+                "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+                "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+                "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+                "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+              },
+              "./PoseidonT3.sol": {
+                "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+              },
+              "./PoseidonT6.sol": {
+                "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+              },
+              "./PoseidonT4.sol": {
+                "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+              },
+              "./PoseidonT5.sol": {
+                "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+              }
+            },
+            "enableEraVMExtensions": false,
+            "forceEVMLA": false
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "PoseidonT3"
+      ]
+    },
+    "/home/ayo/projects/poseidon/node_modules/.pnpm/maci-contracts@0.0.0-ci.f6073a6_@nomicfoundation+hardhat-chai-matchers@2.0.7_@nomicfoundation_oppwookvwbkbrslse5hwejvkle/node_modules/maci-contracts/contracts/crypto/PoseidonT5.sol": {
+      "lastModificationDate": 1725008187695,
+      "contentHash": "372d48a8a89e04c5ac9c3e3429ca6e0b",
+      "sourceName": "maci-contracts/contracts/crypto/PoseidonT5.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "mode": "3",
+            "fallback_to_optimizing_for_size": false
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "detectMissingLibraries": false,
+          "forceEVMLA": false,
+          "enableEraVMExtensions": false,
+          "libraries": {
+            "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+              "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+              "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+              "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+              "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+            },
+            "./PoseidonT3.sol": {
+              "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+            },
+            "./PoseidonT6.sol": {
+              "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+            },
+            "./PoseidonT4.sol": {
+              "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+            },
+            "./PoseidonT5.sol": {
+              "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+            }
+          }
+        },
+        "eraVersion": "1.0.1",
+        "zksolc": {
+          "version": "1.5.3",
+          "compilerSource": "binary",
+          "settings": {
+            "optimizer": {
+              "enabled": true,
+              "mode": "3",
+              "fallback_to_optimizing_for_size": false
+            },
+            "compilerPath": "/home/ayo/.cache/hardhat-nodejs/compilers-v2/zksolc/zksolc-v1.5.3",
+            "missingLibrariesPath": "./.zksolc-libraries-cache/missingLibraryDependencies.json",
+            "areLibrariesMissing": false,
+            "experimental": {},
+            "libraries": {
+              "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+                "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+                "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+                "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+                "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+              },
+              "./PoseidonT3.sol": {
+                "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+              },
+              "./PoseidonT6.sol": {
+                "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+              },
+              "./PoseidonT4.sol": {
+                "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+              },
+              "./PoseidonT5.sol": {
+                "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+              }
+            },
+            "enableEraVMExtensions": false,
+            "forceEVMLA": false
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "PoseidonT5"
+      ]
+    },
+    "/home/ayo/projects/poseidon/node_modules/.pnpm/maci-contracts@0.0.0-ci.f6073a6_@nomicfoundation+hardhat-chai-matchers@2.0.7_@nomicfoundation_oppwookvwbkbrslse5hwejvkle/node_modules/maci-contracts/contracts/crypto/PoseidonT6.sol": {
+      "lastModificationDate": 1725008192143,
+      "contentHash": "c7ac1aac9640285c9a76a357854a795b",
+      "sourceName": "maci-contracts/contracts/crypto/PoseidonT6.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "mode": "3",
+            "fallback_to_optimizing_for_size": false
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "detectMissingLibraries": false,
+          "forceEVMLA": false,
+          "enableEraVMExtensions": false,
+          "libraries": {
+            "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+              "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+              "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+              "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+              "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+            },
+            "./PoseidonT3.sol": {
+              "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+            },
+            "./PoseidonT6.sol": {
+              "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+            },
+            "./PoseidonT4.sol": {
+              "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+            },
+            "./PoseidonT5.sol": {
+              "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+            }
+          }
+        },
+        "eraVersion": "1.0.1",
+        "zksolc": {
+          "version": "1.5.3",
+          "compilerSource": "binary",
+          "settings": {
+            "optimizer": {
+              "enabled": true,
+              "mode": "3",
+              "fallback_to_optimizing_for_size": false
+            },
+            "compilerPath": "/home/ayo/.cache/hardhat-nodejs/compilers-v2/zksolc/zksolc-v1.5.3",
+            "missingLibrariesPath": "./.zksolc-libraries-cache/missingLibraryDependencies.json",
+            "areLibrariesMissing": false,
+            "experimental": {},
+            "libraries": {
+              "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+                "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+                "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+                "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+                "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+              },
+              "./PoseidonT3.sol": {
+                "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+              },
+              "./PoseidonT6.sol": {
+                "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+              },
+              "./PoseidonT4.sol": {
+                "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+              },
+              "./PoseidonT5.sol": {
+                "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+              }
+            },
+            "enableEraVMExtensions": false,
+            "forceEVMLA": false
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "PoseidonT6"
+      ]
+    },
+    "/home/ayo/projects/poseidon/node_modules/.pnpm/maci-contracts@0.0.0-ci.f6073a6_@nomicfoundation+hardhat-chai-matchers@2.0.7_@nomicfoundation_oppwookvwbkbrslse5hwejvkle/node_modules/maci-contracts/contracts/crypto/SnarkConstants.sol": {
+      "lastModificationDate": 1724968579802,
+      "contentHash": "5cd35d3d4212a8b84edc24ce7e765d47",
+      "sourceName": "maci-contracts/contracts/crypto/SnarkConstants.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "mode": "3",
+            "fallback_to_optimizing_for_size": false
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "detectMissingLibraries": false,
+          "forceEVMLA": false,
+          "enableEraVMExtensions": false,
+          "libraries": {
+            "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+              "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+              "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+              "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+              "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+            },
+            "./PoseidonT3.sol": {
+              "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+            },
+            "./PoseidonT6.sol": {
+              "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+            },
+            "./PoseidonT4.sol": {
+              "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+            },
+            "./PoseidonT5.sol": {
+              "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+            }
+          }
+        },
+        "eraVersion": "1.0.1",
+        "zksolc": {
+          "version": "1.5.3",
+          "compilerSource": "binary",
+          "settings": {
+            "optimizer": {
+              "enabled": true,
+              "mode": "3",
+              "fallback_to_optimizing_for_size": false
+            },
+            "compilerPath": "/home/ayo/.cache/hardhat-nodejs/compilers-v2/zksolc/zksolc-v1.5.3",
+            "missingLibrariesPath": "./.zksolc-libraries-cache/missingLibraryDependencies.json",
+            "areLibrariesMissing": false,
+            "experimental": {},
+            "libraries": {
+              "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+                "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+                "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+                "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+                "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+              },
+              "./PoseidonT3.sol": {
+                "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+              },
+              "./PoseidonT6.sol": {
+                "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+              },
+              "./PoseidonT4.sol": {
+                "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+              },
+              "./PoseidonT5.sol": {
+                "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+              }
+            },
+            "enableEraVMExtensions": false,
+            "forceEVMLA": false
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "SnarkConstants"
+      ]
+    },
+    "/home/ayo/projects/poseidon/contracts/poseidonT6.sol": {
+      "lastModificationDate": 1724967504543,
+      "contentHash": "beecc16a1bdba5951d598a7a46dc77d0",
+      "sourceName": "contracts/poseidonT6.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "mode": "3",
+            "fallback_to_optimizing_for_size": false
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "detectMissingLibraries": false,
+          "forceEVMLA": false,
+          "enableEraVMExtensions": false,
+          "libraries": {
+            "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+              "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+              "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+              "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+              "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+            },
+            "./PoseidonT3.sol": {
+              "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+            },
+            "./PoseidonT6.sol": {
+              "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+            },
+            "./PoseidonT4.sol": {
+              "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+            },
+            "./PoseidonT5.sol": {
+              "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+            }
+          }
+        },
+        "eraVersion": "1.0.1",
+        "zksolc": {
+          "version": "1.5.3",
+          "compilerSource": "binary",
+          "settings": {
+            "optimizer": {
+              "enabled": true,
+              "mode": "3",
+              "fallback_to_optimizing_for_size": false
+            },
+            "compilerPath": "/home/ayo/.cache/hardhat-nodejs/compilers-v2/zksolc/zksolc-v1.5.3",
+            "missingLibrariesPath": "./.zksolc-libraries-cache/missingLibraryDependencies.json",
+            "areLibrariesMissing": false,
+            "experimental": {},
+            "libraries": {
+              "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+                "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+                "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+                "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+                "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+              },
+              "./PoseidonT3.sol": {
+                "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+              },
+              "./PoseidonT6.sol": {
+                "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+              },
+              "./PoseidonT4.sol": {
+                "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+              },
+              "./PoseidonT5.sol": {
+                "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+              }
+            },
+            "enableEraVMExtensions": false,
+            "forceEVMLA": false
+          }
+        }
+      },
+      "imports": [
+        "maci-contracts/contracts/crypto/PoseidonT6.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "poseidonT6"
+      ]
+    },
+    "/home/ayo/projects/poseidon/contracts/poseidonT5.sol": {
+      "lastModificationDate": 1724967504523,
+      "contentHash": "16e6044563c7ca5db07b53ff739a40ce",
+      "sourceName": "contracts/poseidonT5.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "mode": "3",
+            "fallback_to_optimizing_for_size": false
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "detectMissingLibraries": false,
+          "forceEVMLA": false,
+          "enableEraVMExtensions": false,
+          "libraries": {
+            "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+              "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+              "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+              "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+              "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+            },
+            "./PoseidonT3.sol": {
+              "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+            },
+            "./PoseidonT6.sol": {
+              "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+            },
+            "./PoseidonT4.sol": {
+              "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+            },
+            "./PoseidonT5.sol": {
+              "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+            }
+          }
+        },
+        "eraVersion": "1.0.1",
+        "zksolc": {
+          "version": "1.5.3",
+          "compilerSource": "binary",
+          "settings": {
+            "optimizer": {
+              "enabled": true,
+              "mode": "3",
+              "fallback_to_optimizing_for_size": false
+            },
+            "compilerPath": "/home/ayo/.cache/hardhat-nodejs/compilers-v2/zksolc/zksolc-v1.5.3",
+            "missingLibrariesPath": "./.zksolc-libraries-cache/missingLibraryDependencies.json",
+            "areLibrariesMissing": false,
+            "experimental": {},
+            "libraries": {
+              "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+                "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+                "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+                "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+                "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+              },
+              "./PoseidonT3.sol": {
+                "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+              },
+              "./PoseidonT6.sol": {
+                "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+              },
+              "./PoseidonT4.sol": {
+                "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+              },
+              "./PoseidonT5.sol": {
+                "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+              }
+            },
+            "enableEraVMExtensions": false,
+            "forceEVMLA": false
+          }
+        }
+      },
+      "imports": [
+        "maci-contracts/contracts/crypto/PoseidonT5.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "poseidonT5"
+      ]
+    },
+    "/home/ayo/projects/poseidon/contracts/poseidonT3.sol": {
+      "lastModificationDate": 1724967504495,
+      "contentHash": "ff8973863884bdf737b9266ecf3b9e46",
+      "sourceName": "contracts/poseidonT3.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "mode": "3",
+            "fallback_to_optimizing_for_size": false
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "detectMissingLibraries": false,
+          "forceEVMLA": false,
+          "enableEraVMExtensions": false,
+          "libraries": {
+            "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+              "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+              "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+              "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+              "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+            },
+            "./PoseidonT3.sol": {
+              "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+            },
+            "./PoseidonT6.sol": {
+              "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+            },
+            "./PoseidonT4.sol": {
+              "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+            },
+            "./PoseidonT5.sol": {
+              "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+            }
+          }
+        },
+        "eraVersion": "1.0.1",
+        "zksolc": {
+          "version": "1.5.3",
+          "compilerSource": "binary",
+          "settings": {
+            "optimizer": {
+              "enabled": true,
+              "mode": "3",
+              "fallback_to_optimizing_for_size": false
+            },
+            "compilerPath": "/home/ayo/.cache/hardhat-nodejs/compilers-v2/zksolc/zksolc-v1.5.3",
+            "missingLibrariesPath": "./.zksolc-libraries-cache/missingLibraryDependencies.json",
+            "areLibrariesMissing": false,
+            "experimental": {},
+            "libraries": {
+              "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+                "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+                "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+                "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+                "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+              },
+              "./PoseidonT3.sol": {
+                "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+              },
+              "./PoseidonT6.sol": {
+                "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+              },
+              "./PoseidonT4.sol": {
+                "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+              },
+              "./PoseidonT5.sol": {
+                "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+              }
+            },
+            "enableEraVMExtensions": false,
+            "forceEVMLA": false
+          }
+        }
+      },
+      "imports": [
+        "maci-contracts/contracts/crypto/PoseidonT3.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "poseidonT3"
+      ]
+    },
+    "/home/ayo/projects/poseidon/contracts/poseidonT4.sol": {
+      "lastModificationDate": 1724967504511,
+      "contentHash": "80a8c8b732287c9ec3b1345defe6c0ac",
+      "sourceName": "contracts/poseidonT4.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "mode": "3",
+            "fallback_to_optimizing_for_size": false
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "detectMissingLibraries": false,
+          "forceEVMLA": false,
+          "enableEraVMExtensions": false,
+          "libraries": {
+            "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+              "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+              "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+              "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+              "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+            },
+            "./PoseidonT3.sol": {
+              "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+            },
+            "./PoseidonT6.sol": {
+              "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+            },
+            "./PoseidonT4.sol": {
+              "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+            },
+            "./PoseidonT5.sol": {
+              "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+            }
+          }
+        },
+        "eraVersion": "1.0.1",
+        "zksolc": {
+          "version": "1.5.3",
+          "compilerSource": "binary",
+          "settings": {
+            "optimizer": {
+              "enabled": true,
+              "mode": "3",
+              "fallback_to_optimizing_for_size": false
+            },
+            "compilerPath": "/home/ayo/.cache/hardhat-nodejs/compilers-v2/zksolc/zksolc-v1.5.3",
+            "missingLibrariesPath": "./.zksolc-libraries-cache/missingLibraryDependencies.json",
+            "areLibrariesMissing": false,
+            "experimental": {},
+            "libraries": {
+              "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+                "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+                "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+                "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+                "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+              },
+              "./PoseidonT3.sol": {
+                "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+              },
+              "./PoseidonT6.sol": {
+                "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+              },
+              "./PoseidonT4.sol": {
+                "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+              },
+              "./PoseidonT5.sol": {
+                "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+              }
+            },
+            "enableEraVMExtensions": false,
+            "forceEVMLA": false
+          }
+        }
+      },
+      "imports": [
+        "maci-contracts/contracts/crypto/PoseidonT4.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "poseidonT4"
+      ]
+    },
+    "/home/ayo/projects/poseidon/node_modules/.pnpm/@openzeppelin+contracts@4.9.6/node_modules/@openzeppelin/contracts/proxy/transparent/ProxyAdmin.sol": {
+      "lastModificationDate": 1724967275377,
+      "contentHash": "9891986e27d357222a8ac8c0c13abe31",
+      "sourceName": "@openzeppelin/contracts/proxy/transparent/ProxyAdmin.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "mode": "3",
+            "fallback_to_optimizing_for_size": false
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "detectMissingLibraries": false,
+          "forceEVMLA": false,
+          "enableEraVMExtensions": false,
+          "libraries": {
+            "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+              "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+              "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+              "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+              "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+            }
+          }
+        },
+        "eraVersion": "1.0.1",
+        "zksolc": {
+          "version": "1.5.3",
+          "compilerSource": "binary",
+          "settings": {
+            "optimizer": {
+              "enabled": true,
+              "mode": "3",
+              "fallback_to_optimizing_for_size": false
+            },
+            "compilerPath": "/home/ayo/.cache/hardhat-nodejs/compilers-v2/zksolc/zksolc-v1.5.3",
+            "missingLibrariesPath": "./.zksolc-libraries-cache/missingLibraryDependencies.json",
+            "areLibrariesMissing": false,
+            "experimental": {},
+            "libraries": {
+              "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+                "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+                "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+                "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+                "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+              }
+            },
+            "enableEraVMExtensions": false,
+            "forceEVMLA": false
+          }
+        }
+      },
+      "imports": [
+        "./TransparentUpgradeableProxy.sol",
+        "../../access/Ownable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ProxyAdmin"
+      ]
+    },
+    "/home/ayo/projects/poseidon/node_modules/.pnpm/@openzeppelin+contracts@4.9.6/node_modules/@openzeppelin/contracts/proxy/transparent/TransparentUpgradeableProxy.sol": {
+      "lastModificationDate": 1724967275385,
+      "contentHash": "1286aa8d056c7120d1a2da252e310d2f",
+      "sourceName": "@openzeppelin/contracts/proxy/transparent/TransparentUpgradeableProxy.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "mode": "3",
+            "fallback_to_optimizing_for_size": false
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "detectMissingLibraries": false,
+          "forceEVMLA": false,
+          "enableEraVMExtensions": false,
+          "libraries": {
+            "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+              "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+              "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+              "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+              "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+            }
+          }
+        },
+        "eraVersion": "1.0.1",
+        "zksolc": {
+          "version": "1.5.3",
+          "compilerSource": "binary",
+          "settings": {
+            "optimizer": {
+              "enabled": true,
+              "mode": "3",
+              "fallback_to_optimizing_for_size": false
+            },
+            "compilerPath": "/home/ayo/.cache/hardhat-nodejs/compilers-v2/zksolc/zksolc-v1.5.3",
+            "missingLibrariesPath": "./.zksolc-libraries-cache/missingLibraryDependencies.json",
+            "areLibrariesMissing": false,
+            "experimental": {},
+            "libraries": {
+              "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+                "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+                "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+                "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+                "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+              }
+            },
+            "enableEraVMExtensions": false,
+            "forceEVMLA": false
+          }
+        }
+      },
+      "imports": [
+        "../ERC1967/ERC1967Proxy.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ITransparentUpgradeableProxy",
+        "TransparentUpgradeableProxy"
+      ]
+    },
+    "/home/ayo/projects/poseidon/node_modules/.pnpm/@openzeppelin+contracts@4.9.6/node_modules/@openzeppelin/contracts/access/Ownable.sol": {
+      "lastModificationDate": 1724967275377,
+      "contentHash": "5a20b2cad87ddb61c7a3a6af21289e28",
+      "sourceName": "@openzeppelin/contracts/access/Ownable.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "mode": "3",
+            "fallback_to_optimizing_for_size": false
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "detectMissingLibraries": false,
+          "forceEVMLA": false,
+          "enableEraVMExtensions": false,
+          "libraries": {
+            "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+              "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+              "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+              "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+              "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+            }
+          }
+        },
+        "eraVersion": "1.0.1",
+        "zksolc": {
+          "version": "1.5.3",
+          "compilerSource": "binary",
+          "settings": {
+            "optimizer": {
+              "enabled": true,
+              "mode": "3",
+              "fallback_to_optimizing_for_size": false
+            },
+            "compilerPath": "/home/ayo/.cache/hardhat-nodejs/compilers-v2/zksolc/zksolc-v1.5.3",
+            "missingLibrariesPath": "./.zksolc-libraries-cache/missingLibraryDependencies.json",
+            "areLibrariesMissing": false,
+            "experimental": {},
+            "libraries": {
+              "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+                "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+                "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+                "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+                "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+              }
+            },
+            "enableEraVMExtensions": false,
+            "forceEVMLA": false
+          }
+        }
+      },
+      "imports": [
+        "../utils/Context.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Ownable"
+      ]
+    },
+    "/home/ayo/projects/poseidon/node_modules/.pnpm/@openzeppelin+contracts@4.9.6/node_modules/@openzeppelin/contracts/proxy/ERC1967/ERC1967Proxy.sol": {
+      "lastModificationDate": 1724967275373,
+      "contentHash": "3fc3c7c0a2956f36e766691bb9473b06",
+      "sourceName": "@openzeppelin/contracts/proxy/ERC1967/ERC1967Proxy.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "mode": "3",
+            "fallback_to_optimizing_for_size": false
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "detectMissingLibraries": false,
+          "forceEVMLA": false,
+          "enableEraVMExtensions": false,
+          "libraries": {
+            "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+              "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+              "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+              "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+              "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+            }
+          }
+        },
+        "eraVersion": "1.0.1",
+        "zksolc": {
+          "version": "1.5.3",
+          "compilerSource": "binary",
+          "settings": {
+            "optimizer": {
+              "enabled": true,
+              "mode": "3",
+              "fallback_to_optimizing_for_size": false
+            },
+            "compilerPath": "/home/ayo/.cache/hardhat-nodejs/compilers-v2/zksolc/zksolc-v1.5.3",
+            "missingLibrariesPath": "./.zksolc-libraries-cache/missingLibraryDependencies.json",
+            "areLibrariesMissing": false,
+            "experimental": {},
+            "libraries": {
+              "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+                "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+                "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+                "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+                "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+              }
+            },
+            "enableEraVMExtensions": false,
+            "forceEVMLA": false
+          }
+        }
+      },
+      "imports": [
+        "../Proxy.sol",
+        "./ERC1967Upgrade.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC1967Proxy"
+      ]
+    },
+    "/home/ayo/projects/poseidon/node_modules/.pnpm/@openzeppelin+contracts@4.9.6/node_modules/@openzeppelin/contracts/proxy/Proxy.sol": {
+      "lastModificationDate": 1724967275377,
+      "contentHash": "40b3d81a836d50ff47e03893dcaaf204",
+      "sourceName": "@openzeppelin/contracts/proxy/Proxy.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "mode": "3",
+            "fallback_to_optimizing_for_size": false
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "detectMissingLibraries": false,
+          "forceEVMLA": false,
+          "enableEraVMExtensions": false,
+          "libraries": {
+            "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+              "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+              "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+              "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+              "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+            }
+          }
+        },
+        "eraVersion": "1.0.1",
+        "zksolc": {
+          "version": "1.5.3",
+          "compilerSource": "binary",
+          "settings": {
+            "optimizer": {
+              "enabled": true,
+              "mode": "3",
+              "fallback_to_optimizing_for_size": false
+            },
+            "compilerPath": "/home/ayo/.cache/hardhat-nodejs/compilers-v2/zksolc/zksolc-v1.5.3",
+            "missingLibrariesPath": "./.zksolc-libraries-cache/missingLibraryDependencies.json",
+            "areLibrariesMissing": false,
+            "experimental": {},
+            "libraries": {
+              "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+                "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+                "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+                "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+                "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+              }
+            },
+            "enableEraVMExtensions": false,
+            "forceEVMLA": false
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Proxy"
+      ]
+    },
+    "/home/ayo/projects/poseidon/node_modules/.pnpm/@openzeppelin+contracts@4.9.6/node_modules/@openzeppelin/contracts/proxy/ERC1967/ERC1967Upgrade.sol": {
+      "lastModificationDate": 1724967275373,
+      "contentHash": "a127706394bead18392601a20d44867a",
+      "sourceName": "@openzeppelin/contracts/proxy/ERC1967/ERC1967Upgrade.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "mode": "3",
+            "fallback_to_optimizing_for_size": false
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "detectMissingLibraries": false,
+          "forceEVMLA": false,
+          "enableEraVMExtensions": false,
+          "libraries": {
+            "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+              "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+              "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+              "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+              "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+            }
+          }
+        },
+        "eraVersion": "1.0.1",
+        "zksolc": {
+          "version": "1.5.3",
+          "compilerSource": "binary",
+          "settings": {
+            "optimizer": {
+              "enabled": true,
+              "mode": "3",
+              "fallback_to_optimizing_for_size": false
+            },
+            "compilerPath": "/home/ayo/.cache/hardhat-nodejs/compilers-v2/zksolc/zksolc-v1.5.3",
+            "missingLibrariesPath": "./.zksolc-libraries-cache/missingLibraryDependencies.json",
+            "areLibrariesMissing": false,
+            "experimental": {},
+            "libraries": {
+              "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+                "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+                "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+                "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+                "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+              }
+            },
+            "enableEraVMExtensions": false,
+            "forceEVMLA": false
+          }
+        }
+      },
+      "imports": [
+        "../beacon/IBeacon.sol",
+        "../../interfaces/IERC1967.sol",
+        "../../interfaces/draft-IERC1822.sol",
+        "../../utils/Address.sol",
+        "../../utils/StorageSlot.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.2"
+      ],
+      "artifacts": [
+        "ERC1967Upgrade"
+      ]
+    },
+    "/home/ayo/projects/poseidon/node_modules/.pnpm/@openzeppelin+contracts@4.9.6/node_modules/@openzeppelin/contracts/proxy/beacon/IBeacon.sol": {
+      "lastModificationDate": 1724968223969,
+      "contentHash": "b6bd23bf19e90b771337037706470933",
+      "sourceName": "@openzeppelin/contracts/proxy/beacon/IBeacon.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "mode": "3",
+            "fallback_to_optimizing_for_size": false
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "detectMissingLibraries": false,
+          "forceEVMLA": false,
+          "enableEraVMExtensions": false,
+          "libraries": {
+            "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+              "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+              "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+              "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+              "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+            }
+          }
+        },
+        "eraVersion": "1.0.1",
+        "zksolc": {
+          "version": "1.5.3",
+          "compilerSource": "binary",
+          "settings": {
+            "optimizer": {
+              "enabled": true,
+              "mode": "3",
+              "fallback_to_optimizing_for_size": false
+            },
+            "compilerPath": "/home/ayo/.cache/hardhat-nodejs/compilers-v2/zksolc/zksolc-v1.5.3",
+            "missingLibrariesPath": "./.zksolc-libraries-cache/missingLibraryDependencies.json",
+            "areLibrariesMissing": false,
+            "experimental": {},
+            "libraries": {
+              "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+                "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+                "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+                "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+                "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+              }
+            },
+            "enableEraVMExtensions": false,
+            "forceEVMLA": false
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IBeacon"
+      ]
+    },
+    "/home/ayo/projects/poseidon/node_modules/.pnpm/@openzeppelin+contracts@4.9.6/node_modules/@openzeppelin/contracts/utils/Address.sol": {
+      "lastModificationDate": 1724967275373,
+      "contentHash": "211ffd288c1588ba8c10eae668ca3c66",
+      "sourceName": "@openzeppelin/contracts/utils/Address.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "mode": "3",
+            "fallback_to_optimizing_for_size": false
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "detectMissingLibraries": false,
+          "forceEVMLA": false,
+          "enableEraVMExtensions": false,
+          "libraries": {
+            "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+              "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+              "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+              "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+              "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+            }
+          }
+        },
+        "eraVersion": "1.0.1",
+        "zksolc": {
+          "version": "1.5.3",
+          "compilerSource": "binary",
+          "settings": {
+            "optimizer": {
+              "enabled": true,
+              "mode": "3",
+              "fallback_to_optimizing_for_size": false
+            },
+            "compilerPath": "/home/ayo/.cache/hardhat-nodejs/compilers-v2/zksolc/zksolc-v1.5.3",
+            "missingLibrariesPath": "./.zksolc-libraries-cache/missingLibraryDependencies.json",
+            "areLibrariesMissing": false,
+            "experimental": {},
+            "libraries": {
+              "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+                "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+                "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+                "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+                "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+              }
+            },
+            "enableEraVMExtensions": false,
+            "forceEVMLA": false
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.1"
+      ],
+      "artifacts": [
+        "Address"
+      ]
+    },
+    "/home/ayo/projects/poseidon/node_modules/.pnpm/@openzeppelin+contracts@4.9.6/node_modules/@openzeppelin/contracts/interfaces/draft-IERC1822.sol": {
+      "lastModificationDate": 1724967275373,
+      "contentHash": "2858d98e74e67987ec81b39605230b74",
+      "sourceName": "@openzeppelin/contracts/interfaces/draft-IERC1822.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "mode": "3",
+            "fallback_to_optimizing_for_size": false
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "detectMissingLibraries": false,
+          "forceEVMLA": false,
+          "enableEraVMExtensions": false,
+          "libraries": {
+            "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+              "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+              "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+              "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+              "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+            }
+          }
+        },
+        "eraVersion": "1.0.1",
+        "zksolc": {
+          "version": "1.5.3",
+          "compilerSource": "binary",
+          "settings": {
+            "optimizer": {
+              "enabled": true,
+              "mode": "3",
+              "fallback_to_optimizing_for_size": false
+            },
+            "compilerPath": "/home/ayo/.cache/hardhat-nodejs/compilers-v2/zksolc/zksolc-v1.5.3",
+            "missingLibrariesPath": "./.zksolc-libraries-cache/missingLibraryDependencies.json",
+            "areLibrariesMissing": false,
+            "experimental": {},
+            "libraries": {
+              "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+                "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+                "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+                "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+                "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+              }
+            },
+            "enableEraVMExtensions": false,
+            "forceEVMLA": false
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC1822Proxiable"
+      ]
+    },
+    "/home/ayo/projects/poseidon/node_modules/.pnpm/@openzeppelin+contracts@4.9.6/node_modules/@openzeppelin/contracts/interfaces/IERC1967.sol": {
+      "lastModificationDate": 1724967275377,
+      "contentHash": "d0d060231a45da7a1eecbb5cd286fa40",
+      "sourceName": "@openzeppelin/contracts/interfaces/IERC1967.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "mode": "3",
+            "fallback_to_optimizing_for_size": false
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "detectMissingLibraries": false,
+          "forceEVMLA": false,
+          "enableEraVMExtensions": false,
+          "libraries": {
+            "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+              "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+              "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+              "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+              "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+            }
+          }
+        },
+        "eraVersion": "1.0.1",
+        "zksolc": {
+          "version": "1.5.3",
+          "compilerSource": "binary",
+          "settings": {
+            "optimizer": {
+              "enabled": true,
+              "mode": "3",
+              "fallback_to_optimizing_for_size": false
+            },
+            "compilerPath": "/home/ayo/.cache/hardhat-nodejs/compilers-v2/zksolc/zksolc-v1.5.3",
+            "missingLibrariesPath": "./.zksolc-libraries-cache/missingLibraryDependencies.json",
+            "areLibrariesMissing": false,
+            "experimental": {},
+            "libraries": {
+              "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+                "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+                "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+                "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+                "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+              }
+            },
+            "enableEraVMExtensions": false,
+            "forceEVMLA": false
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC1967"
+      ]
+    },
+    "/home/ayo/projects/poseidon/node_modules/.pnpm/@openzeppelin+contracts@4.9.6/node_modules/@openzeppelin/contracts/utils/StorageSlot.sol": {
+      "lastModificationDate": 1724967275385,
+      "contentHash": "682f7dd1f2e1147c8390e7575deceb2d",
+      "sourceName": "@openzeppelin/contracts/utils/StorageSlot.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "mode": "3",
+            "fallback_to_optimizing_for_size": false
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "detectMissingLibraries": false,
+          "forceEVMLA": false,
+          "enableEraVMExtensions": false,
+          "libraries": {
+            "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+              "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+              "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+              "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+              "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+            }
+          }
+        },
+        "eraVersion": "1.0.1",
+        "zksolc": {
+          "version": "1.5.3",
+          "compilerSource": "binary",
+          "settings": {
+            "optimizer": {
+              "enabled": true,
+              "mode": "3",
+              "fallback_to_optimizing_for_size": false
+            },
+            "compilerPath": "/home/ayo/.cache/hardhat-nodejs/compilers-v2/zksolc/zksolc-v1.5.3",
+            "missingLibrariesPath": "./.zksolc-libraries-cache/missingLibraryDependencies.json",
+            "areLibrariesMissing": false,
+            "experimental": {},
+            "libraries": {
+              "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+                "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+                "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+                "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+                "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+              }
+            },
+            "enableEraVMExtensions": false,
+            "forceEVMLA": false
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "StorageSlot"
+      ]
+    },
+    "/home/ayo/projects/poseidon/node_modules/.pnpm/@openzeppelin+contracts@4.9.6/node_modules/@openzeppelin/contracts/utils/Context.sol": {
+      "lastModificationDate": 1724967275373,
+      "contentHash": "f07feb4a44b1a4872370da5aa70e8e46",
+      "sourceName": "@openzeppelin/contracts/utils/Context.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "mode": "3",
+            "fallback_to_optimizing_for_size": false
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "detectMissingLibraries": false,
+          "forceEVMLA": false,
+          "enableEraVMExtensions": false,
+          "libraries": {
+            "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+              "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+              "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+              "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+              "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+            }
+          }
+        },
+        "eraVersion": "1.0.1",
+        "zksolc": {
+          "version": "1.5.3",
+          "compilerSource": "binary",
+          "settings": {
+            "optimizer": {
+              "enabled": true,
+              "mode": "3",
+              "fallback_to_optimizing_for_size": false
+            },
+            "compilerPath": "/home/ayo/.cache/hardhat-nodejs/compilers-v2/zksolc/zksolc-v1.5.3",
+            "missingLibrariesPath": "./.zksolc-libraries-cache/missingLibraryDependencies.json",
+            "areLibrariesMissing": false,
+            "experimental": {},
+            "libraries": {
+              "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+                "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+                "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+                "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+                "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+              }
+            },
+            "enableEraVMExtensions": false,
+            "forceEVMLA": false
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Context"
+      ]
+    },
+    "/home/ayo/projects/poseidon/node_modules/.pnpm/@openzeppelin+contracts@4.9.6/node_modules/@openzeppelin/contracts/proxy/beacon/UpgradeableBeacon.sol": {
+      "lastModificationDate": 1724967275385,
+      "contentHash": "8ffefb755605824cf730ce4092b2f581",
+      "sourceName": "@openzeppelin/contracts/proxy/beacon/UpgradeableBeacon.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "mode": "3",
+            "fallback_to_optimizing_for_size": false
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "detectMissingLibraries": false,
+          "forceEVMLA": false,
+          "enableEraVMExtensions": false,
+          "libraries": {
+            "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+              "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+              "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+              "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+              "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+            }
+          }
+        },
+        "eraVersion": "1.0.1",
+        "zksolc": {
+          "version": "1.5.3",
+          "compilerSource": "binary",
+          "settings": {
+            "optimizer": {
+              "enabled": true,
+              "mode": "3",
+              "fallback_to_optimizing_for_size": false
+            },
+            "compilerPath": "/home/ayo/.cache/hardhat-nodejs/compilers-v2/zksolc/zksolc-v1.5.3",
+            "missingLibrariesPath": "./.zksolc-libraries-cache/missingLibraryDependencies.json",
+            "areLibrariesMissing": false,
+            "experimental": {},
+            "libraries": {
+              "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+                "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+                "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+                "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+                "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+              }
+            },
+            "enableEraVMExtensions": false,
+            "forceEVMLA": false
+          }
+        }
+      },
+      "imports": [
+        "./IBeacon.sol",
+        "../../access/Ownable.sol",
+        "../../utils/Address.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "UpgradeableBeacon"
+      ]
+    },
+    "/home/ayo/projects/poseidon/node_modules/.pnpm/@openzeppelin+contracts@4.9.6/node_modules/@openzeppelin/contracts/proxy/beacon/BeaconProxy.sol": {
+      "lastModificationDate": 1724967275373,
+      "contentHash": "dc9dcb6e542154d9cfbfaece646c1092",
+      "sourceName": "@openzeppelin/contracts/proxy/beacon/BeaconProxy.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "mode": "3",
+            "fallback_to_optimizing_for_size": false
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "detectMissingLibraries": false,
+          "forceEVMLA": false,
+          "enableEraVMExtensions": false,
+          "libraries": {
+            "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+              "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+              "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+              "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+              "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+            }
+          }
+        },
+        "eraVersion": "1.0.1",
+        "zksolc": {
+          "version": "1.5.3",
+          "compilerSource": "binary",
+          "settings": {
+            "optimizer": {
+              "enabled": true,
+              "mode": "3",
+              "fallback_to_optimizing_for_size": false
+            },
+            "compilerPath": "/home/ayo/.cache/hardhat-nodejs/compilers-v2/zksolc/zksolc-v1.5.3",
+            "missingLibrariesPath": "./.zksolc-libraries-cache/missingLibraryDependencies.json",
+            "areLibrariesMissing": false,
+            "experimental": {},
+            "libraries": {
+              "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+                "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+                "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+                "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+                "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+              }
+            },
+            "enableEraVMExtensions": false,
+            "forceEVMLA": false
+          }
+        }
+      },
+      "imports": [
+        "./IBeacon.sol",
+        "../Proxy.sol",
+        "../ERC1967/ERC1967Upgrade.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "BeaconProxy"
+      ]
+    },
+    "/home/ayo/projects/poseidon/node_modules/.pnpm/@openzeppelin+contracts@4.9.5/node_modules/@openzeppelin/contracts/proxy/transparent/ProxyAdmin.sol": {
+      "lastModificationDate": 1724971740934,
+      "contentHash": "9891986e27d357222a8ac8c0c13abe31",
+      "sourceName": "@openzeppelin/contracts/proxy/transparent/ProxyAdmin.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "mode": "3",
+            "fallback_to_optimizing_for_size": false
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "detectMissingLibraries": false,
+          "forceEVMLA": false,
+          "enableEraVMExtensions": false,
+          "libraries": {
+            "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+              "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+              "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+              "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+              "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+            },
+            "./PoseidonT3.sol": {
+              "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+            },
+            "./PoseidonT6.sol": {
+              "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+            },
+            "./PoseidonT4.sol": {
+              "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+            },
+            "./PoseidonT5.sol": {
+              "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+            }
+          }
+        },
+        "eraVersion": "1.0.1",
+        "zksolc": {
+          "version": "1.5.3",
+          "compilerSource": "binary",
+          "settings": {
+            "optimizer": {
+              "enabled": true,
+              "mode": "3",
+              "fallback_to_optimizing_for_size": false
+            },
+            "compilerPath": "/home/ayo/.cache/hardhat-nodejs/compilers-v2/zksolc/zksolc-v1.5.3",
+            "missingLibrariesPath": "./.zksolc-libraries-cache/missingLibraryDependencies.json",
+            "areLibrariesMissing": false,
+            "experimental": {},
+            "libraries": {
+              "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+                "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+                "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+                "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+                "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+              },
+              "./PoseidonT3.sol": {
+                "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+              },
+              "./PoseidonT6.sol": {
+                "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+              },
+              "./PoseidonT4.sol": {
+                "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+              },
+              "./PoseidonT5.sol": {
+                "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+              }
+            },
+            "enableEraVMExtensions": false,
+            "forceEVMLA": false
+          }
+        }
+      },
+      "imports": [
+        "./TransparentUpgradeableProxy.sol",
+        "../../access/Ownable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ProxyAdmin"
+      ]
+    },
+    "/home/ayo/projects/poseidon/node_modules/.pnpm/@openzeppelin+contracts@4.9.5/node_modules/@openzeppelin/contracts/proxy/transparent/TransparentUpgradeableProxy.sol": {
+      "lastModificationDate": 1724971740934,
+      "contentHash": "1286aa8d056c7120d1a2da252e310d2f",
+      "sourceName": "@openzeppelin/contracts/proxy/transparent/TransparentUpgradeableProxy.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "mode": "3",
+            "fallback_to_optimizing_for_size": false
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "detectMissingLibraries": false,
+          "forceEVMLA": false,
+          "enableEraVMExtensions": false,
+          "libraries": {
+            "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+              "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+              "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+              "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+              "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+            },
+            "./PoseidonT3.sol": {
+              "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+            },
+            "./PoseidonT6.sol": {
+              "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+            },
+            "./PoseidonT4.sol": {
+              "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+            },
+            "./PoseidonT5.sol": {
+              "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+            }
+          }
+        },
+        "eraVersion": "1.0.1",
+        "zksolc": {
+          "version": "1.5.3",
+          "compilerSource": "binary",
+          "settings": {
+            "optimizer": {
+              "enabled": true,
+              "mode": "3",
+              "fallback_to_optimizing_for_size": false
+            },
+            "compilerPath": "/home/ayo/.cache/hardhat-nodejs/compilers-v2/zksolc/zksolc-v1.5.3",
+            "missingLibrariesPath": "./.zksolc-libraries-cache/missingLibraryDependencies.json",
+            "areLibrariesMissing": false,
+            "experimental": {},
+            "libraries": {
+              "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+                "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+                "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+                "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+                "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+              },
+              "./PoseidonT3.sol": {
+                "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+              },
+              "./PoseidonT6.sol": {
+                "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+              },
+              "./PoseidonT4.sol": {
+                "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+              },
+              "./PoseidonT5.sol": {
+                "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+              }
+            },
+            "enableEraVMExtensions": false,
+            "forceEVMLA": false
+          }
+        }
+      },
+      "imports": [
+        "../ERC1967/ERC1967Proxy.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ITransparentUpgradeableProxy",
+        "TransparentUpgradeableProxy"
+      ]
+    },
+    "/home/ayo/projects/poseidon/node_modules/.pnpm/@openzeppelin+contracts@4.9.5/node_modules/@openzeppelin/contracts/access/Ownable.sol": {
+      "lastModificationDate": 1724971740934,
+      "contentHash": "5a20b2cad87ddb61c7a3a6af21289e28",
+      "sourceName": "@openzeppelin/contracts/access/Ownable.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "mode": "3",
+            "fallback_to_optimizing_for_size": false
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "detectMissingLibraries": false,
+          "forceEVMLA": false,
+          "enableEraVMExtensions": false,
+          "libraries": {
+            "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+              "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+              "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+              "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+              "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+            },
+            "./PoseidonT3.sol": {
+              "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+            },
+            "./PoseidonT6.sol": {
+              "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+            },
+            "./PoseidonT4.sol": {
+              "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+            },
+            "./PoseidonT5.sol": {
+              "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+            }
+          }
+        },
+        "eraVersion": "1.0.1",
+        "zksolc": {
+          "version": "1.5.3",
+          "compilerSource": "binary",
+          "settings": {
+            "optimizer": {
+              "enabled": true,
+              "mode": "3",
+              "fallback_to_optimizing_for_size": false
+            },
+            "compilerPath": "/home/ayo/.cache/hardhat-nodejs/compilers-v2/zksolc/zksolc-v1.5.3",
+            "missingLibrariesPath": "./.zksolc-libraries-cache/missingLibraryDependencies.json",
+            "areLibrariesMissing": false,
+            "experimental": {},
+            "libraries": {
+              "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+                "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+                "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+                "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+                "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+              },
+              "./PoseidonT3.sol": {
+                "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+              },
+              "./PoseidonT6.sol": {
+                "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+              },
+              "./PoseidonT4.sol": {
+                "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+              },
+              "./PoseidonT5.sol": {
+                "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+              }
+            },
+            "enableEraVMExtensions": false,
+            "forceEVMLA": false
+          }
+        }
+      },
+      "imports": [
+        "../utils/Context.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Ownable"
+      ]
+    },
+    "/home/ayo/projects/poseidon/node_modules/.pnpm/@openzeppelin+contracts@4.9.5/node_modules/@openzeppelin/contracts/proxy/ERC1967/ERC1967Proxy.sol": {
+      "lastModificationDate": 1724971740930,
+      "contentHash": "3fc3c7c0a2956f36e766691bb9473b06",
+      "sourceName": "@openzeppelin/contracts/proxy/ERC1967/ERC1967Proxy.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "mode": "3",
+            "fallback_to_optimizing_for_size": false
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "detectMissingLibraries": false,
+          "forceEVMLA": false,
+          "enableEraVMExtensions": false,
+          "libraries": {
+            "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+              "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+              "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+              "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+              "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+            },
+            "./PoseidonT3.sol": {
+              "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+            },
+            "./PoseidonT6.sol": {
+              "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+            },
+            "./PoseidonT4.sol": {
+              "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+            },
+            "./PoseidonT5.sol": {
+              "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+            }
+          }
+        },
+        "eraVersion": "1.0.1",
+        "zksolc": {
+          "version": "1.5.3",
+          "compilerSource": "binary",
+          "settings": {
+            "optimizer": {
+              "enabled": true,
+              "mode": "3",
+              "fallback_to_optimizing_for_size": false
+            },
+            "compilerPath": "/home/ayo/.cache/hardhat-nodejs/compilers-v2/zksolc/zksolc-v1.5.3",
+            "missingLibrariesPath": "./.zksolc-libraries-cache/missingLibraryDependencies.json",
+            "areLibrariesMissing": false,
+            "experimental": {},
+            "libraries": {
+              "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+                "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+                "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+                "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+                "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+              },
+              "./PoseidonT3.sol": {
+                "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+              },
+              "./PoseidonT6.sol": {
+                "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+              },
+              "./PoseidonT4.sol": {
+                "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+              },
+              "./PoseidonT5.sol": {
+                "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+              }
+            },
+            "enableEraVMExtensions": false,
+            "forceEVMLA": false
+          }
+        }
+      },
+      "imports": [
+        "../Proxy.sol",
+        "./ERC1967Upgrade.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC1967Proxy"
+      ]
+    },
+    "/home/ayo/projects/poseidon/node_modules/.pnpm/@openzeppelin+contracts@4.9.5/node_modules/@openzeppelin/contracts/proxy/Proxy.sol": {
+      "lastModificationDate": 1724971740934,
+      "contentHash": "40b3d81a836d50ff47e03893dcaaf204",
+      "sourceName": "@openzeppelin/contracts/proxy/Proxy.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "mode": "3",
+            "fallback_to_optimizing_for_size": false
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "detectMissingLibraries": false,
+          "forceEVMLA": false,
+          "enableEraVMExtensions": false,
+          "libraries": {
+            "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+              "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+              "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+              "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+              "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+            },
+            "./PoseidonT3.sol": {
+              "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+            },
+            "./PoseidonT6.sol": {
+              "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+            },
+            "./PoseidonT4.sol": {
+              "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+            },
+            "./PoseidonT5.sol": {
+              "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+            }
+          }
+        },
+        "eraVersion": "1.0.1",
+        "zksolc": {
+          "version": "1.5.3",
+          "compilerSource": "binary",
+          "settings": {
+            "optimizer": {
+              "enabled": true,
+              "mode": "3",
+              "fallback_to_optimizing_for_size": false
+            },
+            "compilerPath": "/home/ayo/.cache/hardhat-nodejs/compilers-v2/zksolc/zksolc-v1.5.3",
+            "missingLibrariesPath": "./.zksolc-libraries-cache/missingLibraryDependencies.json",
+            "areLibrariesMissing": false,
+            "experimental": {},
+            "libraries": {
+              "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+                "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+                "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+                "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+                "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+              },
+              "./PoseidonT3.sol": {
+                "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+              },
+              "./PoseidonT6.sol": {
+                "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+              },
+              "./PoseidonT4.sol": {
+                "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+              },
+              "./PoseidonT5.sol": {
+                "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+              }
+            },
+            "enableEraVMExtensions": false,
+            "forceEVMLA": false
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Proxy"
+      ]
+    },
+    "/home/ayo/projects/poseidon/node_modules/.pnpm/@openzeppelin+contracts@4.9.5/node_modules/@openzeppelin/contracts/proxy/ERC1967/ERC1967Upgrade.sol": {
+      "lastModificationDate": 1724971740930,
+      "contentHash": "a127706394bead18392601a20d44867a",
+      "sourceName": "@openzeppelin/contracts/proxy/ERC1967/ERC1967Upgrade.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "mode": "3",
+            "fallback_to_optimizing_for_size": false
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "detectMissingLibraries": false,
+          "forceEVMLA": false,
+          "enableEraVMExtensions": false,
+          "libraries": {
+            "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+              "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+              "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+              "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+              "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+            },
+            "./PoseidonT3.sol": {
+              "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+            },
+            "./PoseidonT6.sol": {
+              "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+            },
+            "./PoseidonT4.sol": {
+              "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+            },
+            "./PoseidonT5.sol": {
+              "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+            }
+          }
+        },
+        "eraVersion": "1.0.1",
+        "zksolc": {
+          "version": "1.5.3",
+          "compilerSource": "binary",
+          "settings": {
+            "optimizer": {
+              "enabled": true,
+              "mode": "3",
+              "fallback_to_optimizing_for_size": false
+            },
+            "compilerPath": "/home/ayo/.cache/hardhat-nodejs/compilers-v2/zksolc/zksolc-v1.5.3",
+            "missingLibrariesPath": "./.zksolc-libraries-cache/missingLibraryDependencies.json",
+            "areLibrariesMissing": false,
+            "experimental": {},
+            "libraries": {
+              "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+                "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+                "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+                "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+                "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+              },
+              "./PoseidonT3.sol": {
+                "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+              },
+              "./PoseidonT6.sol": {
+                "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+              },
+              "./PoseidonT4.sol": {
+                "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+              },
+              "./PoseidonT5.sol": {
+                "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+              }
+            },
+            "enableEraVMExtensions": false,
+            "forceEVMLA": false
+          }
+        }
+      },
+      "imports": [
+        "../beacon/IBeacon.sol",
+        "../../interfaces/IERC1967.sol",
+        "../../interfaces/draft-IERC1822.sol",
+        "../../utils/Address.sol",
+        "../../utils/StorageSlot.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.2"
+      ],
+      "artifacts": [
+        "ERC1967Upgrade"
+      ]
+    },
+    "/home/ayo/projects/poseidon/node_modules/.pnpm/@openzeppelin+contracts@4.9.5/node_modules/@openzeppelin/contracts/proxy/beacon/IBeacon.sol": {
+      "lastModificationDate": 1724971740930,
+      "contentHash": "b6bd23bf19e90b771337037706470933",
+      "sourceName": "@openzeppelin/contracts/proxy/beacon/IBeacon.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "mode": "3",
+            "fallback_to_optimizing_for_size": false
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "detectMissingLibraries": false,
+          "forceEVMLA": false,
+          "enableEraVMExtensions": false,
+          "libraries": {
+            "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+              "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+              "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+              "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+              "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+            },
+            "./PoseidonT3.sol": {
+              "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+            },
+            "./PoseidonT6.sol": {
+              "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+            },
+            "./PoseidonT4.sol": {
+              "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+            },
+            "./PoseidonT5.sol": {
+              "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+            }
+          }
+        },
+        "eraVersion": "1.0.1",
+        "zksolc": {
+          "version": "1.5.3",
+          "compilerSource": "binary",
+          "settings": {
+            "optimizer": {
+              "enabled": true,
+              "mode": "3",
+              "fallback_to_optimizing_for_size": false
+            },
+            "compilerPath": "/home/ayo/.cache/hardhat-nodejs/compilers-v2/zksolc/zksolc-v1.5.3",
+            "missingLibrariesPath": "./.zksolc-libraries-cache/missingLibraryDependencies.json",
+            "areLibrariesMissing": false,
+            "experimental": {},
+            "libraries": {
+              "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+                "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+                "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+                "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+                "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+              },
+              "./PoseidonT3.sol": {
+                "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+              },
+              "./PoseidonT6.sol": {
+                "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+              },
+              "./PoseidonT4.sol": {
+                "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+              },
+              "./PoseidonT5.sol": {
+                "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+              }
+            },
+            "enableEraVMExtensions": false,
+            "forceEVMLA": false
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IBeacon"
+      ]
+    },
+    "/home/ayo/projects/poseidon/node_modules/.pnpm/@openzeppelin+contracts@4.9.5/node_modules/@openzeppelin/contracts/utils/Address.sol": {
+      "lastModificationDate": 1724971740930,
+      "contentHash": "211ffd288c1588ba8c10eae668ca3c66",
+      "sourceName": "@openzeppelin/contracts/utils/Address.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "mode": "3",
+            "fallback_to_optimizing_for_size": false
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "detectMissingLibraries": false,
+          "forceEVMLA": false,
+          "enableEraVMExtensions": false,
+          "libraries": {
+            "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+              "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+              "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+              "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+              "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+            },
+            "./PoseidonT3.sol": {
+              "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+            },
+            "./PoseidonT6.sol": {
+              "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+            },
+            "./PoseidonT4.sol": {
+              "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+            },
+            "./PoseidonT5.sol": {
+              "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+            }
+          }
+        },
+        "eraVersion": "1.0.1",
+        "zksolc": {
+          "version": "1.5.3",
+          "compilerSource": "binary",
+          "settings": {
+            "optimizer": {
+              "enabled": true,
+              "mode": "3",
+              "fallback_to_optimizing_for_size": false
+            },
+            "compilerPath": "/home/ayo/.cache/hardhat-nodejs/compilers-v2/zksolc/zksolc-v1.5.3",
+            "missingLibrariesPath": "./.zksolc-libraries-cache/missingLibraryDependencies.json",
+            "areLibrariesMissing": false,
+            "experimental": {},
+            "libraries": {
+              "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+                "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+                "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+                "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+                "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+              },
+              "./PoseidonT3.sol": {
+                "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+              },
+              "./PoseidonT6.sol": {
+                "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+              },
+              "./PoseidonT4.sol": {
+                "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+              },
+              "./PoseidonT5.sol": {
+                "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+              }
+            },
+            "enableEraVMExtensions": false,
+            "forceEVMLA": false
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.1"
+      ],
+      "artifacts": [
+        "Address"
+      ]
+    },
+    "/home/ayo/projects/poseidon/node_modules/.pnpm/@openzeppelin+contracts@4.9.5/node_modules/@openzeppelin/contracts/interfaces/draft-IERC1822.sol": {
+      "lastModificationDate": 1724971740930,
+      "contentHash": "2858d98e74e67987ec81b39605230b74",
+      "sourceName": "@openzeppelin/contracts/interfaces/draft-IERC1822.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "mode": "3",
+            "fallback_to_optimizing_for_size": false
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "detectMissingLibraries": false,
+          "forceEVMLA": false,
+          "enableEraVMExtensions": false,
+          "libraries": {
+            "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+              "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+              "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+              "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+              "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+            },
+            "./PoseidonT3.sol": {
+              "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+            },
+            "./PoseidonT6.sol": {
+              "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+            },
+            "./PoseidonT4.sol": {
+              "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+            },
+            "./PoseidonT5.sol": {
+              "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+            }
+          }
+        },
+        "eraVersion": "1.0.1",
+        "zksolc": {
+          "version": "1.5.3",
+          "compilerSource": "binary",
+          "settings": {
+            "optimizer": {
+              "enabled": true,
+              "mode": "3",
+              "fallback_to_optimizing_for_size": false
+            },
+            "compilerPath": "/home/ayo/.cache/hardhat-nodejs/compilers-v2/zksolc/zksolc-v1.5.3",
+            "missingLibrariesPath": "./.zksolc-libraries-cache/missingLibraryDependencies.json",
+            "areLibrariesMissing": false,
+            "experimental": {},
+            "libraries": {
+              "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+                "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+                "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+                "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+                "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+              },
+              "./PoseidonT3.sol": {
+                "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+              },
+              "./PoseidonT6.sol": {
+                "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+              },
+              "./PoseidonT4.sol": {
+                "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+              },
+              "./PoseidonT5.sol": {
+                "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+              }
+            },
+            "enableEraVMExtensions": false,
+            "forceEVMLA": false
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC1822Proxiable"
+      ]
+    },
+    "/home/ayo/projects/poseidon/node_modules/.pnpm/@openzeppelin+contracts@4.9.5/node_modules/@openzeppelin/contracts/interfaces/IERC1967.sol": {
+      "lastModificationDate": 1724971740934,
+      "contentHash": "d0d060231a45da7a1eecbb5cd286fa40",
+      "sourceName": "@openzeppelin/contracts/interfaces/IERC1967.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "mode": "3",
+            "fallback_to_optimizing_for_size": false
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "detectMissingLibraries": false,
+          "forceEVMLA": false,
+          "enableEraVMExtensions": false,
+          "libraries": {
+            "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+              "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+              "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+              "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+              "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+            },
+            "./PoseidonT3.sol": {
+              "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+            },
+            "./PoseidonT6.sol": {
+              "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+            },
+            "./PoseidonT4.sol": {
+              "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+            },
+            "./PoseidonT5.sol": {
+              "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+            }
+          }
+        },
+        "eraVersion": "1.0.1",
+        "zksolc": {
+          "version": "1.5.3",
+          "compilerSource": "binary",
+          "settings": {
+            "optimizer": {
+              "enabled": true,
+              "mode": "3",
+              "fallback_to_optimizing_for_size": false
+            },
+            "compilerPath": "/home/ayo/.cache/hardhat-nodejs/compilers-v2/zksolc/zksolc-v1.5.3",
+            "missingLibrariesPath": "./.zksolc-libraries-cache/missingLibraryDependencies.json",
+            "areLibrariesMissing": false,
+            "experimental": {},
+            "libraries": {
+              "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+                "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+                "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+                "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+                "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+              },
+              "./PoseidonT3.sol": {
+                "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+              },
+              "./PoseidonT6.sol": {
+                "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+              },
+              "./PoseidonT4.sol": {
+                "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+              },
+              "./PoseidonT5.sol": {
+                "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+              }
+            },
+            "enableEraVMExtensions": false,
+            "forceEVMLA": false
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC1967"
+      ]
+    },
+    "/home/ayo/projects/poseidon/node_modules/.pnpm/@openzeppelin+contracts@4.9.5/node_modules/@openzeppelin/contracts/utils/StorageSlot.sol": {
+      "lastModificationDate": 1724971740934,
+      "contentHash": "682f7dd1f2e1147c8390e7575deceb2d",
+      "sourceName": "@openzeppelin/contracts/utils/StorageSlot.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "mode": "3",
+            "fallback_to_optimizing_for_size": false
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "detectMissingLibraries": false,
+          "forceEVMLA": false,
+          "enableEraVMExtensions": false,
+          "libraries": {
+            "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+              "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+              "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+              "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+              "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+            },
+            "./PoseidonT3.sol": {
+              "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+            },
+            "./PoseidonT6.sol": {
+              "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+            },
+            "./PoseidonT4.sol": {
+              "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+            },
+            "./PoseidonT5.sol": {
+              "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+            }
+          }
+        },
+        "eraVersion": "1.0.1",
+        "zksolc": {
+          "version": "1.5.3",
+          "compilerSource": "binary",
+          "settings": {
+            "optimizer": {
+              "enabled": true,
+              "mode": "3",
+              "fallback_to_optimizing_for_size": false
+            },
+            "compilerPath": "/home/ayo/.cache/hardhat-nodejs/compilers-v2/zksolc/zksolc-v1.5.3",
+            "missingLibrariesPath": "./.zksolc-libraries-cache/missingLibraryDependencies.json",
+            "areLibrariesMissing": false,
+            "experimental": {},
+            "libraries": {
+              "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+                "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+                "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+                "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+                "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+              },
+              "./PoseidonT3.sol": {
+                "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+              },
+              "./PoseidonT6.sol": {
+                "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+              },
+              "./PoseidonT4.sol": {
+                "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+              },
+              "./PoseidonT5.sol": {
+                "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+              }
+            },
+            "enableEraVMExtensions": false,
+            "forceEVMLA": false
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "StorageSlot"
+      ]
+    },
+    "/home/ayo/projects/poseidon/node_modules/.pnpm/@openzeppelin+contracts@4.9.5/node_modules/@openzeppelin/contracts/utils/Context.sol": {
+      "lastModificationDate": 1724971740930,
+      "contentHash": "f07feb4a44b1a4872370da5aa70e8e46",
+      "sourceName": "@openzeppelin/contracts/utils/Context.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "mode": "3",
+            "fallback_to_optimizing_for_size": false
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "detectMissingLibraries": false,
+          "forceEVMLA": false,
+          "enableEraVMExtensions": false,
+          "libraries": {
+            "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+              "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+              "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+              "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+              "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+            },
+            "./PoseidonT3.sol": {
+              "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+            },
+            "./PoseidonT6.sol": {
+              "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+            },
+            "./PoseidonT4.sol": {
+              "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+            },
+            "./PoseidonT5.sol": {
+              "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+            }
+          }
+        },
+        "eraVersion": "1.0.1",
+        "zksolc": {
+          "version": "1.5.3",
+          "compilerSource": "binary",
+          "settings": {
+            "optimizer": {
+              "enabled": true,
+              "mode": "3",
+              "fallback_to_optimizing_for_size": false
+            },
+            "compilerPath": "/home/ayo/.cache/hardhat-nodejs/compilers-v2/zksolc/zksolc-v1.5.3",
+            "missingLibrariesPath": "./.zksolc-libraries-cache/missingLibraryDependencies.json",
+            "areLibrariesMissing": false,
+            "experimental": {},
+            "libraries": {
+              "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+                "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+                "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+                "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+                "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+              },
+              "./PoseidonT3.sol": {
+                "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+              },
+              "./PoseidonT6.sol": {
+                "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+              },
+              "./PoseidonT4.sol": {
+                "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+              },
+              "./PoseidonT5.sol": {
+                "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+              }
+            },
+            "enableEraVMExtensions": false,
+            "forceEVMLA": false
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Context"
+      ]
+    },
+    "/home/ayo/projects/poseidon/node_modules/.pnpm/@openzeppelin+contracts@4.9.5/node_modules/@openzeppelin/contracts/proxy/beacon/UpgradeableBeacon.sol": {
+      "lastModificationDate": 1724971740934,
+      "contentHash": "8ffefb755605824cf730ce4092b2f581",
+      "sourceName": "@openzeppelin/contracts/proxy/beacon/UpgradeableBeacon.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "mode": "3",
+            "fallback_to_optimizing_for_size": false
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "detectMissingLibraries": false,
+          "forceEVMLA": false,
+          "enableEraVMExtensions": false,
+          "libraries": {
+            "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+              "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+              "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+              "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+              "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+            },
+            "./PoseidonT3.sol": {
+              "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+            },
+            "./PoseidonT6.sol": {
+              "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+            },
+            "./PoseidonT4.sol": {
+              "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+            },
+            "./PoseidonT5.sol": {
+              "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+            }
+          }
+        },
+        "eraVersion": "1.0.1",
+        "zksolc": {
+          "version": "1.5.3",
+          "compilerSource": "binary",
+          "settings": {
+            "optimizer": {
+              "enabled": true,
+              "mode": "3",
+              "fallback_to_optimizing_for_size": false
+            },
+            "compilerPath": "/home/ayo/.cache/hardhat-nodejs/compilers-v2/zksolc/zksolc-v1.5.3",
+            "missingLibrariesPath": "./.zksolc-libraries-cache/missingLibraryDependencies.json",
+            "areLibrariesMissing": false,
+            "experimental": {},
+            "libraries": {
+              "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+                "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+                "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+                "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+                "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+              },
+              "./PoseidonT3.sol": {
+                "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+              },
+              "./PoseidonT6.sol": {
+                "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+              },
+              "./PoseidonT4.sol": {
+                "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+              },
+              "./PoseidonT5.sol": {
+                "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+              }
+            },
+            "enableEraVMExtensions": false,
+            "forceEVMLA": false
+          }
+        }
+      },
+      "imports": [
+        "./IBeacon.sol",
+        "../../access/Ownable.sol",
+        "../../utils/Address.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "UpgradeableBeacon"
+      ]
+    },
+    "/home/ayo/projects/poseidon/node_modules/.pnpm/@openzeppelin+contracts@4.9.5/node_modules/@openzeppelin/contracts/proxy/beacon/BeaconProxy.sol": {
+      "lastModificationDate": 1724971740930,
+      "contentHash": "dc9dcb6e542154d9cfbfaece646c1092",
+      "sourceName": "@openzeppelin/contracts/proxy/beacon/BeaconProxy.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "mode": "3",
+            "fallback_to_optimizing_for_size": false
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "detectMissingLibraries": false,
+          "forceEVMLA": false,
+          "enableEraVMExtensions": false,
+          "libraries": {
+            "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+              "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+              "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+              "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+            },
+            "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+              "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+            },
+            "./PoseidonT3.sol": {
+              "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+            },
+            "./PoseidonT6.sol": {
+              "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+            },
+            "./PoseidonT4.sol": {
+              "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+            },
+            "./PoseidonT5.sol": {
+              "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+            }
+          }
+        },
+        "eraVersion": "1.0.1",
+        "zksolc": {
+          "version": "1.5.3",
+          "compilerSource": "binary",
+          "settings": {
+            "optimizer": {
+              "enabled": true,
+              "mode": "3",
+              "fallback_to_optimizing_for_size": false
+            },
+            "compilerPath": "/home/ayo/.cache/hardhat-nodejs/compilers-v2/zksolc/zksolc-v1.5.3",
+            "missingLibrariesPath": "./.zksolc-libraries-cache/missingLibraryDependencies.json",
+            "areLibrariesMissing": false,
+            "experimental": {},
+            "libraries": {
+              "maci-contracts/contracts/crypto/PoseidonT3.sol": {
+                "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT6.sol": {
+                "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT4.sol": {
+                "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+              },
+              "maci-contracts/contracts/crypto/PoseidonT5.sol": {
+                "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+              },
+              "./PoseidonT3.sol": {
+                "PoseidonT3": "0x1447872E09b36eB3Bc49cF930c47175Da46139fE"
+              },
+              "./PoseidonT6.sol": {
+                "PoseidonT6": "0x5BfcF5A1b1e0e0D5E1B4d352f8eCF8f29913008D"
+              },
+              "./PoseidonT4.sol": {
+                "PoseidonT4": "0x8Aba44ee35A51c51F271D68c5dc936c529f762BC"
+              },
+              "./PoseidonT5.sol": {
+                "PoseidonT5": "0xbFcb4f0fa5F3831998408d63882E0f6E2095C49F"
+              }
+            },
+            "enableEraVMExtensions": false,
+            "forceEVMLA": false
+          }
+        }
+      },
+      "imports": [
+        "./IBeacon.sol",
+        "../Proxy.sol",
+        "../ERC1967/ERC1967Upgrade.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "BeaconProxy"
+      ]
+    }
+  }
+}
