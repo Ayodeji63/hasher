@@ -12,3 +12,16 @@ npx hardhat node
 npx hardhat ignition deploy ./ignition/modules/Lock.ts
 ```
 # hasher
+
+
+To compile 
+
+```shell 
+    pnpm hardhat compile --network zkSyncTestnet
+```
+
+To deploy 
+
+```shell
+pnpm hardhat deploy --tags "Hash" --network zkSyncTestnet
+```
